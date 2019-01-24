@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiuyuan.wang/"/>
-  <updated>2019-01-23T05:19:09.743Z</updated>
+  <updated>2019-01-24T07:32:56.111Z</updated>
   <id>http://xiuyuan.wang/</id>
   
   <author>
@@ -21,12 +21,25 @@
     <link href="http://xiuyuan.wang/2019/01/23/%E8%AF%9E%E7%94%9F/"/>
     <id>http://xiuyuan.wang/2019/01/23/诞生/</id>
     <published>2019-01-23T05:19:09.000Z</published>
-    <updated>2019-01-23T05:19:09.743Z</updated>
+    <updated>2019-01-24T07:32:56.111Z</updated>
     
     <summary type="html">
     
+      
+      
+        
+        
+          &lt;p&gt;heelllo&lt;/p&gt;
+
+        
+      
+    
     </summary>
     
+      <category term="杂记" scheme="http://xiuyuan.wang/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+      <category term="new life" scheme="http://xiuyuan.wang/tags/new-life/"/>
     
   </entry>
   
