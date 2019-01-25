@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiuyuan.wang/"/>
-  <updated>2019-01-25T02:24:11.446Z</updated>
+  <updated>2019-01-25T05:23:58.929Z</updated>
   <id>http://xiuyuan.wang/</id>
   
   <author>
@@ -17,43 +17,18 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>blog</title>
-    <link href="http://xiuyuan.wang/2019/01/25/blog/"/>
-    <id>http://xiuyuan.wang/2019/01/25/blog/</id>
-    <published>2019-01-25T02:24:11.000Z</published>
-    <updated>2019-01-25T02:24:11.446Z</updated>
+    <title>zero</title>
+    <link href="http://xiuyuan.wang/2019/01/25/zero/"/>
+    <id>http://xiuyuan.wang/2019/01/25/zero/</id>
+    <published>2019-01-25T05:22:11.000Z</published>
+    <updated>2019-01-25T05:23:58.929Z</updated>
     
     <summary type="html">
     
     </summary>
     
+      <category term="随笔" scheme="http://xiuyuan.wang/categories/%E9%9A%8F%E7%AC%94/"/>
     
-  </entry>
-  
-  <entry>
-    <title>new</title>
-    <link href="http://xiuyuan.wang/2019/01/23/%E8%AF%9E%E7%94%9F/"/>
-    <id>http://xiuyuan.wang/2019/01/23/诞生/</id>
-    <published>2019-01-23T05:19:09.000Z</published>
-    <updated>2019-01-25T02:20:21.578Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;heelllo&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-      <category term="杂记" scheme="http://xiuyuan.wang/categories/%E6%9D%82%E8%AE%B0/"/>
-    
-    
-      <category term="new life" scheme="http://xiuyuan.wang/tags/new-life/"/>
     
   </entry>
   
