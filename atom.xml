@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiuyuan.wang/"/>
-  <updated>2019-01-25T08:54:25.477Z</updated>
+  <updated>2019-03-28T08:54:52.032Z</updated>
   <id>http://xiuyuan.wang/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>GitLab使用手册</title>
+    <link href="http://xiuyuan.wang/2019/03/28/GitLab%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
+    <id>http://xiuyuan.wang/2019/03/28/GitLab使用手册/</id>
+    <published>2019-03-28T08:51:49.000Z</published>
+    <updated>2019-03-28T08:54:52.032Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Git简介&quot;&gt;&lt;a href=&quot;#Git简介&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="手册" scheme="http://xiuyuan.wang/categories/%E6%89%8B%E5%86%8C/"/>
+    
+    
+      <category term="git, gitlab" scheme="http://xiuyuan.wang/tags/git-gitlab/"/>
+    
+  </entry>
   
   <entry>
     <title>零</title>
