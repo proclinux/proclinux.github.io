@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiuyuan.wang/"/>
-  <updated>2019-03-28T09:17:30.840Z</updated>
+  <updated>2019-06-03T01:06:10.684Z</updated>
   <id>http://xiuyuan.wang/</id>
   
   <author>
@@ -17,11 +17,43 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Spring Data JPA[壹]</title>
+    <link href="http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-%E5%A3%B9/"/>
+    <id>http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-壹/</id>
+    <published>2019-06-03T01:00:47.000Z</published>
+    <updated>2019-06-03T01:06:10.684Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;目录结构&quot;&gt;&lt;a href=&quot;#目录结构&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="java" scheme="http://xiuyuan.wang/categories/java/"/>
+    
+      <category term="spring data jpa" scheme="http://xiuyuan.wang/categories/java/spring-data-jpa/"/>
+    
+    
+      <category term="java" scheme="http://xiuyuan.wang/tags/java/"/>
+    
+      <category term="spring" scheme="http://xiuyuan.wang/tags/spring/"/>
+    
+      <category term="jpa" scheme="http://xiuyuan.wang/tags/jpa/"/>
+    
+  </entry>
+  
+  <entry>
     <title>GitLab使用手册</title>
     <link href="http://xiuyuan.wang/2019/03/28/GitLab%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
     <id>http://xiuyuan.wang/2019/03/28/GitLab使用手册/</id>
     <published>2019-03-28T08:51:49.000Z</published>
-    <updated>2019-03-28T09:17:30.840Z</updated>
+    <updated>2019-03-28T09:22:44.398Z</updated>
     
     <summary type="html">
     
@@ -38,7 +70,9 @@
       <category term="手册" scheme="http://xiuyuan.wang/categories/%E6%89%8B%E5%86%8C/"/>
     
     
-      <category term="git, gitlab" scheme="http://xiuyuan.wang/tags/git-gitlab/"/>
+      <category term="git" scheme="http://xiuyuan.wang/tags/git/"/>
+    
+      <category term="gitlab" scheme="http://xiuyuan.wang/tags/gitlab/"/>
     
   </entry>
   

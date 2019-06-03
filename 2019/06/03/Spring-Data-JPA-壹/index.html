@@ -96,14 +96,18 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="标签">
-<meta property="og:url" content="http://xiuyuan.wang/tags/index.html">
+  <meta name="description" content="目录结构|–config各类配置class|–dao实现各类实体的数据层操作|–exception处理各类异常|–pojo定义实体类|–service提供基于dao的各类服务|–util工具包|–controller控制层，提供url接入和报文的转换 pojo 实体类定义 @Setter、@Getter``可简化set、get。  @JsonIgnoreProperties忽略其他无关的json对">
+<meta name="keywords" content="java,spring,jpa">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Spring Data JPA[壹]">
+<meta property="og:url" content="http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-壹/index.html">
 <meta property="og:site_name" content="倦鸟归巢">
+<meta property="og:description" content="目录结构|–config各类配置class|–dao实现各类实体的数据层操作|–exception处理各类异常|–pojo定义实体类|–service提供基于dao的各类服务|–util工具包|–controller控制层，提供url接入和报文的转换 pojo 实体类定义 @Setter、@Getter``可简化set、get。  @JsonIgnoreProperties忽略其他无关的json对">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-24T03:38:09.095Z">
+<meta property="og:updated_time" content="2019-06-03T01:06:10.684Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="标签">
+<meta name="twitter:title" content="Spring Data JPA[壹]">
+<meta name="twitter:description" content="目录结构|–config各类配置class|–dao实现各类实体的数据层操作|–exception处理各类异常|–pojo定义实体类|–service提供基于dao的各类服务|–util工具包|–controller控制层，提供url接入和报文的转换 pojo 实体类定义 @Setter、@Getter``可简化set、get。  @JsonIgnoreProperties忽略其他无关的json对">
 
 
 
@@ -112,7 +116,7 @@
 
 
 
-  <link rel="canonical" href="http://xiuyuan.wang/tags/">
+  <link rel="canonical" href="http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-壹/">
 
 
 
@@ -122,7 +126,7 @@
   };
 </script>
 
-  <title>标签 | 倦鸟归巢</title>
+  <title>Spring Data JPA[壹] | 倦鸟归巢</title>
   
 
 
@@ -299,25 +303,6 @@
   
     
 
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
-
   
 
   
@@ -365,79 +350,283 @@
 
   <div id="posts" class="posts-expand">
     
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope="" itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-壹/">
+
+    <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="倦鸟">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope="" itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="倦鸟归巢">
+    </span>
+
     
-    
-    <div class="post-block page">
       <header class="post-header">
 
-<h1 class="post-title" itemprop="name headline">标签
-
-</h1>
-
-<div class="post-meta">
-  
-  
-
-
-
-</div>
-
-</header>
-
-      
-      
-      
-      <div class="post-body">
         
         
-          <div class="tag-cloud">
-            <div class="tag-cloud-title">
+          <h1 class="post-title" itemprop="name headline">Spring Data JPA[壹]
+
               
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-                
-                  
-                
-              
-              目前共计 5 个标签
-            </div>
-            <div class="tag-cloud-tags">
-              <a href="/tags/git/" style="font-size: 12px; color: #ccc">git</a> <a href="/tags/gitlab/" style="font-size: 12px; color: #ccc">gitlab</a> <a href="/tags/java/" style="font-size: 12px; color: #ccc">java</a> <a href="/tags/jpa/" style="font-size: 12px; color: #ccc">jpa</a> <a href="/tags/spring/" style="font-size: 12px; color: #ccc">spring</a>
-            </div>
-          </div>
+            
+          </h1>
         
-      </div>
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2019-06-03 09:00:47 / 修改时间：09:06:10" itemprop="dateCreated datePublished" datetime="2019-06-03T09:00:47+08:00">2019-06-03</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/java/" itemprop="url" rel="index"><span itemprop="name">java</span></a></span>
+
+                
+                
+                  ，
+                
+              
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/java/spring-data-jpa/" itemprop="url" rel="index"><span itemprop="name">spring data jpa</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+            
+              
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+            
+                <a href="/2019/06/03/Spring-Data-JPA-壹/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/06/03/Spring-Data-JPA-壹/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+            <span class="post-meta-divider">|</span>
+            <span class="post-meta-item-icon">
+            <i class="fa fa-eye"></i>
+             阅读次数： 
+            <span class="busuanzi-value" id="busuanzi_value_page_pv"></span>
+            </span>
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
       
       
+
+      
+        <h3 id="目录结构"><a href="#目录结构" class="headerlink" title="目录结构"></a>目录结构</h3><p>|–config各类配置class<br>|–dao实现各类实体的数据层操作<br>|–exception处理各类异常<br>|–pojo定义实体类<br>|–service提供基于dao的各类服务<br>|–util工具包<br>|–controller控制层，提供url接入和报文的转换</p>
+<h3 id="pojo-实体类定义"><a href="#pojo-实体类定义" class="headerlink" title="pojo 实体类定义"></a>pojo 实体类定义</h3><ul>
+<li><p><code>@Setter、@Getter``</code>可简化set、get。</p>
+</li>
+<li><p>@JsonIgnoreProperties忽略其他无关的json对象，通常忽略<code>{&quot;handler&quot;, &quot;hibernateLazyInitializer&quot;}</code></p>
+</li>
+<li><p>@Entity注释指名这是一个实体Bean，@Table注释指定了Entity所要映射带数据库表，其中@Table.name()用来指定映射表的表名。如果缺省@Table注释，系统默认采用类名作为映射表的表名。实体Bean的每个实例代表数据表中的一行数据，行中的一列对应实例中的一个属性。</p>
+</li>
+<li><p>@Column注释定义了将成员属性映射到关系表中的哪一列和该列的结构信息，属性如下：</p>
+<ol>
+<li>name：映射的列名。如：映射tbl_user表的name列，可以在name属性的上面或getName方法上面加入；</li>
+<li>unique：是否唯一；</li>
+<li>nullable：是否允许为空；</li>
+<li>length：对于字符型列，length属性指定列的最大字符长度；</li>
+<li>insertable：是否允许插入；</li>
+<li>updatetable：是否允许更新；</li>
+<li>columnDefinition：定义建表时创建此列的DDL；</li>
+<li>secondaryTable：从表名。如果此列不建在主表上（默认是主表），该属性定义该列所在从表的名字。</li>
+</ol>
+</li>
+<li><p>@Id注释指定表的主键，它可以有多种生成方式：</p>
+<ol>
+<li>TABLE：容器指定用底层的数据表确保唯一；</li>
+<li>SEQUENCE：使用数据库的SEQUENCE列来保证唯一（Oracle数据库通过序列来生成唯一ID）；</li>
+<li>IDENTITY：使用数据库的IDENTITY列莱保证唯一；</li>
+<li>AUTO：由容器挑选一个合适的方式来保证唯一；</li>
+<li>NONE：容器不负责主键的生成，由程序来完成。</li>
+</ol>
+</li>
+<li><p>@GeneratedValue注释定义了标识字段生成方式。</p>
+</li>
+<li><p>@Temporal注释用来指定java.util.Date或java.util.Calender属性与数据库类型date、time或timestamp中的那一种类型进行映射。</p>
+</li>
+<li><p>@Temporal(value=TemporalType.TIME)</p>
+</li>
+</ul>
+
       
     </div>
-    
-
-
 
     
+
     
     
+    
+
+    
+
+    
+      
+    
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>赏个钱儿</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/wechatpay.jpg" alt="倦鸟 微信支付">
+        <p>微信支付</p>
+      </div>
+    
+
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/java/" rel="tag"># java</a>
+          
+            <a href="/tags/spring/" rel="tag"># spring</a>
+          
+            <a href="/tags/jpa/" rel="tag"># jpa</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/03/28/GitLab使用手册/" rel="next" title="GitLab使用手册">
+                <i class="fa fa-chevron-left"></i> GitLab使用手册
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
   </div>
 
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+    </div>
+
+  
+
+
 
         </div>
         
@@ -458,8 +647,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -589,6 +787,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#目录结构"><span class="nav-number">1.</span> <span class="nav-text">目录结构</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#pojo-实体类定义"><span class="nav-number">2.</span> <span class="nav-text">pojo 实体类定义</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
@@ -788,6 +1003,8 @@
 
 
 
+
+  
 
 
   
