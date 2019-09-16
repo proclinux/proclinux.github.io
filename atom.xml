@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://xiuyuan.wang/"/>
-  <updated>2019-06-03T01:06:10.684Z</updated>
+  <updated>2019-09-16T03:37:39.391Z</updated>
   <id>http://xiuyuan.wang/</id>
   
   <author>
@@ -17,11 +17,42 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>微信本地开发环境搭建</title>
+    <link href="http://xiuyuan.wang/2019/09/16/%E5%BE%AE%E4%BF%A1%E6%9C%AC%E5%9C%B0%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    <id>http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/</id>
+    <published>2019-09-16T03:34:00.000Z</published>
+    <updated>2019-09-16T03:37:39.391Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;域名解析&quot;&gt;&lt;a href=&quot;#域名解析&quot; class=&quot;headerlink&quot; title=&quot;域名解析&quot;&gt;&lt;/a&gt;域名解析&lt;/h2&gt;&lt;hr&gt;
+&lt;h3 id=&quot;修改hosts文件&quot;&gt;&lt;a href=&quot;#修改hosts文件&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="env" scheme="http://xiuyuan.wang/categories/env/"/>
+    
+    
+      <category term="env" scheme="http://xiuyuan.wang/tags/env/"/>
+    
+      <category term="微信" scheme="http://xiuyuan.wang/tags/%E5%BE%AE%E4%BF%A1/"/>
+    
+      <category term="dev" scheme="http://xiuyuan.wang/tags/dev/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Spring Data JPA[壹]</title>
     <link href="http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-%E5%A3%B9/"/>
     <id>http://xiuyuan.wang/2019/06/03/Spring-Data-JPA-壹/</id>
     <published>2019-06-03T01:00:47.000Z</published>
-    <updated>2019-06-03T01:06:10.684Z</updated>
+    <updated>2019-06-03T01:06:10.000Z</updated>
     
     <summary type="html">
     
@@ -53,7 +84,7 @@
     <link href="http://xiuyuan.wang/2019/03/28/GitLab%E4%BD%BF%E7%94%A8%E6%89%8B%E5%86%8C/"/>
     <id>http://xiuyuan.wang/2019/03/28/GitLab使用手册/</id>
     <published>2019-03-28T08:51:49.000Z</published>
-    <updated>2019-03-28T09:22:44.398Z</updated>
+    <updated>2019-03-28T09:22:44.000Z</updated>
     
     <summary type="html">
     
@@ -81,7 +112,7 @@
     <link href="http://xiuyuan.wang/2019/01/25/%E9%9B%B6/"/>
     <id>http://xiuyuan.wang/2019/01/25/零/</id>
     <published>2019-01-25T05:40:06.000Z</published>
-    <updated>2019-01-25T08:54:25.477Z</updated>
+    <updated>2019-01-25T08:54:25.000Z</updated>
     
     <summary type="html">
     

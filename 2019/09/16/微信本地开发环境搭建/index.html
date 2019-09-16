@@ -96,14 +96,20 @@
 
 
 
-  <meta property="og:type" content="article">
-<meta property="og:title" content="零">
-<meta property="og:url" content="http://xiuyuan.wang/2019/01/25/零/index.html">
+  <meta name="description" content="域名解析 修改hosts文件123sudo vi /etc/hosts# 添加以下域名解析127.0.0.1       www.testmall.ejoy99.com testmall.ejoy99.com mac下可以下载ihost管理hosts文件，如下： 证书生成 工具：openssl、keytool 准备req.cnfDNS设置保持更hosts中设置的一致，CN设置成域名12345678">
+<meta name="keywords" content="env,微信,dev">
+<meta property="og:type" content="article">
+<meta property="og:title" content="微信本地开发环境搭建">
+<meta property="og:url" content="http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/index.html">
 <meta property="og:site_name" content="倦鸟归巢">
+<meta property="og:description" content="域名解析 修改hosts文件123sudo vi /etc/hosts# 添加以下域名解析127.0.0.1       www.testmall.ejoy99.com testmall.ejoy99.com mac下可以下载ihost管理hosts文件，如下： 证书生成 工具：openssl、keytool 准备req.cnfDNS设置保持更hosts中设置的一致，CN设置成域名12345678">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-01-25T08:54:25.000Z">
+<meta property="og:image" content="http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/6A4B923E73E2D04C5C13859367DE7B9B.jpg">
+<meta property="og:updated_time" content="2019-09-16T03:37:39.391Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="零">
+<meta name="twitter:title" content="微信本地开发环境搭建">
+<meta name="twitter:description" content="域名解析 修改hosts文件123sudo vi /etc/hosts# 添加以下域名解析127.0.0.1       www.testmall.ejoy99.com testmall.ejoy99.com mac下可以下载ihost管理hosts文件，如下： 证书生成 工具：openssl、keytool 准备req.cnfDNS设置保持更hosts中设置的一致，CN设置成域名12345678">
+<meta name="twitter:image" content="http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/6A4B923E73E2D04C5C13859367DE7B9B.jpg">
 
 
 
@@ -112,7 +118,7 @@
 
 
 
-  <link rel="canonical" href="http://xiuyuan.wang/2019/01/25/零/">
+  <link rel="canonical" href="http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/">
 
 
 
@@ -122,7 +128,7 @@
   };
 </script>
 
-  <title>零 | 倦鸟归巢</title>
+  <title>微信本地开发环境搭建 | 倦鸟归巢</title>
   
 
 
@@ -360,7 +366,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://xiuyuan.wang/2019/01/25/零/">
+    <link itemprop="mainEntityOfPage" href="http://xiuyuan.wang/2019/09/16/微信本地开发环境搭建/">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="倦鸟">
@@ -377,7 +383,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">零
+          <h1 class="post-title" itemprop="name headline">微信本地开发环境搭建
 
               
             
@@ -403,7 +409,7 @@
                 
               
 
-              <time title="创建时间：2019-01-25 13:40:06 / 修改时间：16:54:25" itemprop="dateCreated datePublished" datetime="2019-01-25T13:40:06+08:00">2019-01-25</time>
+              <time title="创建时间：2019-09-16 11:34:00 / 修改时间：11:37:39" itemprop="dateCreated datePublished" datetime="2019-09-16T11:34:00+08:00">2019-09-16</time>
             
 
             
@@ -425,7 +431,7 @@
                 <span class="post-meta-item-text">分类于</span>
               
               
-                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/随笔/" itemprop="url" rel="index"><span itemprop="name">随笔</span></a></span>
+                <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing"><a href="/categories/env/" itemprop="url" rel="index"><span itemprop="name">env</span></a></span>
 
                 
                 
@@ -443,8 +449,8 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
             
-                <a href="/2019/01/25/零/#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/01/25/零/" itemprop="commentCount"></span>
+                <a href="/2019/09/16/微信本地开发环境搭建/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2019/09/16/微信本地开发环境搭建/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -479,7 +485,33 @@
       
 
       
-        
+        <h2 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h2><hr>
+<h3 id="修改hosts文件"><a href="#修改hosts文件" class="headerlink" title="修改hosts文件"></a>修改hosts文件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo vi /etc/hosts</span><br><span class="line"><span class="meta">#</span> 添加以下域名解析</span><br><span class="line">127.0.0.1       www.testmall.ejoy99.com testmall.ejoy99.com</span><br></pre></td></tr></table></figure>
+<p>mac下可以下载ihost管理hosts文件，如下：<br><img src="6A4B923E73E2D04C5C13859367DE7B9B.jpg" alt=""></p>
+<h2 id="证书生成"><a href="#证书生成" class="headerlink" title="证书生成"></a>证书生成</h2><hr>
+<p>工具：openssl、keytool</p>
+<h3 id="准备req-cnf"><a href="#准备req-cnf" class="headerlink" title="准备req.cnf"></a>准备req.cnf</h3><p>DNS设置保持更hosts中设置的一致，CN设置成域名<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line">[req]</span><br><span class="line">distinguished_name = req_distinguished_name</span><br><span class="line">x509_extensions = v3_req</span><br><span class="line">prompt = no</span><br><span class="line">[req_distinguished_name]</span><br><span class="line">C = CN</span><br><span class="line">ST = ZheJiang</span><br><span class="line">L = HangZhou</span><br><span class="line">O = Kxll</span><br><span class="line">OU = Mall</span><br><span class="line">CN = www.testmall.ejoy99.com</span><br><span class="line">[v3_req]</span><br><span class="line">keyUsage = critical, digitalSignature, keyAgreement</span><br><span class="line">extendedKeyUsage = serverAuth</span><br><span class="line">subjectAltName = @alt_names</span><br><span class="line">[alt_names]</span><br><span class="line">DNS.1 = www.testmall.ejoy99.com</span><br><span class="line">DNS.2 = testmall.ejoy99.com</span><br></pre></td></tr></table></figure></p>
+<h3 id="生成私钥和自签名证书"><a href="#生成私钥和自签名证书" class="headerlink" title="生成私钥和自签名证书"></a>生成私钥和自签名证书</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout test.com.key -out test.com.crt -config req.cnf -sha256</span><br></pre></td></tr></table></figure>
+<h3 id="转化jks"><a href="#转化jks" class="headerlink" title="转化jks"></a>转化jks</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span> crt to p12</span><br><span class="line">openssl pkcs12 -export -in com.ejoy99.testmall.crt -inkey com.ejoy99.testmall.key -out com.ejoy99.testmall.p12 -name "com.ejoy99.testmall" </span><br><span class="line"><span class="meta">#</span> p12 to jks</span><br><span class="line">keytool -importkeystore -srckeystore com.ejoy99.testmall.p12 -srcstoretype PKCS12 -deststoretype JKS -destkeystore com.ejoy99.testmall.jks</span><br></pre></td></tr></table></figure>
+<h2 id="https配置"><a href="#https配置" class="headerlink" title="https配置"></a>https配置</h2><hr>
+<p>https的配置有两种方案，一种是使用nginx、另外一种是使用pfctl+tomcat，日常开发中建议使用后者，简单一些，pfctl负责端口转发，修改tomcat配置支持https。pfctl也可使用其他工具替代。</p>
+<h3 id="使用nginx"><a href="#使用nginx" class="headerlink" title="使用nginx"></a>使用nginx</h3><h4 id="安装nginx后，修改配置文件，mac下可以使用brew安装"><a href="#安装nginx后，修改配置文件，mac下可以使用brew安装" class="headerlink" title="安装nginx后，修改配置文件，mac下可以使用brew安装"></a>安装nginx后，修改配置文件，mac下可以使用brew安装</h4><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br></pre></td><td class="code"><pre><span class="line"># 开启80 443监听，域名设置为www.testmall.ejoy99.com</span><br><span class="line">server &#123;</span><br><span class="line">        listen              80;</span><br><span class="line">        listen              443 ssl;</span><br><span class="line">        server_name         www.testmall.ejoy99.com;</span><br><span class="line">        keepalive_timeout   70;</span><br><span class="line"></span><br><span class="line">        # ssl证书设置</span><br><span class="line">        ssl_certificate     com.ejoy99.testmall.crt;</span><br><span class="line">        ssl_certificate_key com.ejoy99.testmall.key;</span><br><span class="line">        ssl_protocols       TLSv1 TLSv1.1 TLSv1.2;</span><br><span class="line">        ssl_ciphers         HIGH:!aNULL:!MD5;</span><br><span class="line"></span><br><span class="line">        server_name_in_redirect off;</span><br><span class="line">        proxy_set_header Host $host:$server_port;</span><br><span class="line">        proxy_set_header X-Real-IP $remote_addr;</span><br><span class="line">        proxy_set_header REMOTE-HOST $remote_addr;</span><br><span class="line">        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;</span><br><span class="line"></span><br><span class="line">        #charset koi8-r;</span><br><span class="line"></span><br><span class="line">        #access_log  logs/host.access.log  main;</span><br><span class="line"></span><br><span class="line">        # 代理设置</span><br><span class="line">        location / &#123;</span><br><span class="line">            proxy_pass http://127.0.0.1:8080;</span><br><span class="line">        &#125;</span><br><span class="line">        ...</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h4 id="启动nginx"><a href="#启动nginx" class="headerlink" title="启动nginx"></a>启动nginx</h4><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">nginx</span><br><span class="line"><span class="meta">#</span> 重新加载配置， -s 发送信号sign</span><br><span class="line">nginx -s reload</span><br></pre></td></tr></table></figure>
+<h3 id="使用tomcat"><a href="#使用tomcat" class="headerlink" title="使用tomcat"></a>使用tomcat</h3><p>这个过程使用pfctl转发80、443端口到8080、8443，tomcat配置8080、8443端口，设置证书，并开启https强制跳转。</p>
+<h4 id="non-SSL-TLS-HTTP-1-1-Connector、SSL-TLS-HTTP-1-1-Connector设置"><a href="#non-SSL-TLS-HTTP-1-1-Connector、SSL-TLS-HTTP-1-1-Connector设置" class="headerlink" title="non-SSL/TLS HTTP/1.1 Connector、SSL/TLS HTTP/1.1 Connector设置"></a>non-SSL/TLS HTTP/1.1 Connector、SSL/TLS HTTP/1.1 Connector设置</h4><p>mac环境下使用pfctl设置端口转发，将80、443端口（http、https对应的端口）分别转发到8080、8443端口，windows可以使用其他工具</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#</span>## 执行命令</span><br><span class="line">sudo vi /etc/pf.anchors/idea.tomcat</span><br><span class="line"><span class="meta">#</span>## 填写一下内容</span><br><span class="line">rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 80 -&gt; 127.0.0.1 port 8080</span><br><span class="line">rdr pass on lo0 inet proto tcp from any to 127.0.0.1 port 443 -&gt; 127.0.0.1 port 8443</span><br><span class="line"><span class="meta">#</span>## 启动端口转发</span><br><span class="line">sudo pfctl -E</span><br><span class="line"><span class="meta">#</span>## 如果返回一下内容可以忽略</span><br><span class="line">No ALTQ support in kernel</span><br><span class="line">ALTQ related functions disabled</span><br><span class="line">pf disabled</span><br></pre></td></tr></table></figure>
+<p>tomcat配置<code>server.xml</code>，开启8080端口、8443端口<br><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 8080端口开启，默认开启 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"8080"</span> <span class="attr">protocol</span>=<span class="string">"HTTP/1.1"</span></span></span><br><span class="line"><span class="tag">           <span class="attr">connectionTimeout</span>=<span class="string">"20000"</span></span></span><br><span class="line"><span class="tag">           <span class="attr">redirectPort</span>=<span class="string">"8443"</span> /&gt;</span></span><br><span class="line"><span class="comment">&lt;!--</span></span><br><span class="line"><span class="comment">8443端口开启，参考以下配置，替换成自己生成的证书</span></span><br><span class="line"><span class="comment">certificateKeystoreFile 为jks证书</span></span><br><span class="line"><span class="comment">certificateKeyAlias 为证书别名</span></span><br><span class="line"><span class="comment">certificateKeystorePassword 为证书密码</span></span><br><span class="line"><span class="comment">--&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">Connector</span> <span class="attr">port</span>=<span class="string">"8443"</span> <span class="attr">protocol</span>=<span class="string">"org.apache.coyote.http11.Http11NioProtocol"</span></span></span><br><span class="line"><span class="tag">           <span class="attr">maxThreads</span>=<span class="string">"150"</span> <span class="attr">SSLEnabled</span>=<span class="string">"true"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">SSLHostConfig</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">Certificate</span> <span class="attr">certificateKeystoreFile</span>=<span class="string">"conf/com.ejoy99.testmall.jks"</span></span></span><br><span class="line"><span class="tag">                     <span class="attr">certificateKeyAlias</span>=<span class="string">"com.ejoy99.testmall"</span></span></span><br><span class="line"><span class="tag">                     <span class="attr">certificateKeystorePassword</span>=<span class="string">"123456"</span></span></span><br><span class="line"><span class="tag">                     <span class="attr">type</span>=<span class="string">"RSA"</span> /&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">SSLHostConfig</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">Connector</span>&gt;</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="tomcat配置web-xml，强制转换成https"><a href="#tomcat配置web-xml，强制转换成https" class="headerlink" title="tomcat配置web.xml，强制转换成https"></a>tomcat配置<code>web.xml</code>，强制转换成https</h4><figure class="highlight xml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">&lt;!-- 在web-app标签结尾添加以下内容 --&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">welcome-file-list</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">welcome-file</span>&gt;</span>index.html<span class="tag">&lt;/<span class="name">welcome-file</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">welcome-file</span>&gt;</span>index.htm<span class="tag">&lt;/<span class="name">welcome-file</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">welcome-file</span>&gt;</span>index.jsp<span class="tag">&lt;/<span class="name">welcome-file</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">welcome-file-list</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">security-constraint</span>&gt;</span></span><br><span class="line">    <span class="comment">&lt;!-- Authorization setting for SSL --&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">web-resource-collection</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">web-resource-name</span> &gt;</span>SSL<span class="tag">&lt;/<span class="name">web-resource-name</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">url-pattern</span>&gt;</span>/*<span class="tag">&lt;/<span class="name">url-pattern</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">web-resource-collection</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">user-data-constraint</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">transport-guarantee</span>&gt;</span>CONFIDENTIAL<span class="tag">&lt;/<span class="name">transport-guarantee</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">user-data-constraint</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">security-constraint</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<p><strong>注</strong></p>
+<ul>
+<li><p>nginx、tomcat使用http自动跳转https的时候都会在域名后自动加上https端口，未解决。<br>例如：访问<code>http://www.testmall.ejoy99.com/wap/</code>跳转后变成<code>https://www.testmall.ejoy99.com:8443/wap/</code></p>
+</li>
+<li><p>由于本地环境没有图片，因此访问<code>upload</code>的图片地址都会失败，所以在测试服务器上将<code>upload</code>单独设置一个<code>server</code>共本地环境访问， 已解决。</p>
+</li>
+<li><p>最好使用https访问。</p>
+</li>
+</ul>
+
       
     </div>
 
@@ -524,6 +556,16 @@
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/env/" rel="tag"># env</a>
+          
+            <a href="/tags/微信/" rel="tag"># 微信</a>
+          
+            <a href="/tags/dev/" rel="tag"># dev</a>
+          
+        </div>
+      
 
       
       
@@ -533,15 +575,15 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2019/06/03/Spring-Data-JPA-壹/" rel="next" title="Spring Data JPA[壹]">
+                <i class="fa fa-chevron-left"></i> Spring Data JPA[壹]
+              </a>
+            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/03/28/GitLab使用手册/" rel="prev" title="GitLab使用手册">
-                GitLab使用手册 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -590,8 +632,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -729,6 +780,23 @@
         </div>
       </div>
 
+      
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#域名解析"><span class="nav-number">1.</span> <span class="nav-text">域名解析</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#修改hosts文件"><span class="nav-number">1.1.</span> <span class="nav-text">修改hosts文件</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#证书生成"><span class="nav-number">2.</span> <span class="nav-text">证书生成</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#准备req-cnf"><span class="nav-number">2.1.</span> <span class="nav-text">准备req.cnf</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#生成私钥和自签名证书"><span class="nav-number">2.2.</span> <span class="nav-text">生成私钥和自签名证书</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#转化jks"><span class="nav-number">2.3.</span> <span class="nav-text">转化jks</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#https配置"><span class="nav-number">3.</span> <span class="nav-text">https配置</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#使用nginx"><span class="nav-number">3.1.</span> <span class="nav-text">使用nginx</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#安装nginx后，修改配置文件，mac下可以使用brew安装"><span class="nav-number">3.1.1.</span> <span class="nav-text">安装nginx后，修改配置文件，mac下可以使用brew安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#启动nginx"><span class="nav-number">3.1.2.</span> <span class="nav-text">启动nginx</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#使用tomcat"><span class="nav-number">3.2.</span> <span class="nav-text">使用tomcat</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#non-SSL-TLS-HTTP-1-1-Connector、SSL-TLS-HTTP-1-1-Connector设置"><span class="nav-number">3.2.1.</span> <span class="nav-text">non-SSL/TLS HTTP/1.1 Connector、SSL/TLS HTTP/1.1 Connector设置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#tomcat配置web-xml，强制转换成https"><span class="nav-number">3.2.2.</span> <span class="nav-text">tomcat配置web.xml，强制转换成https</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
       
 
       
